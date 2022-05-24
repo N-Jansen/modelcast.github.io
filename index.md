@@ -31,7 +31,10 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 Some SysML v2 model:
 ```
-part def Foo;
+part def Table {
+  part top : TableTop;
+  part leg : Leg[4];
+}
 ```  
 
 ### Jekyll Themes
